@@ -12,7 +12,7 @@
     <div class="headline">
       <div class="container">
         <h2 class="headline">Xmas Quiz</h2>
-        <img src="DOOM Christmas (Lex Records).jpg" style="width:35%; height:40%; margin-left: 35%;">
+        <img src="DOOM Christmas (Lex Records).jpg" style="width:35%; max-width:250px; height:35%; margin-left: 35%;">
         <h6 style="text-align: right;"">Ho Ho Hoe cakes...</h6>
       </div>
     </div>
@@ -27,13 +27,17 @@
     <!-- quiz section -->
     <div class="mainBackground">
       <div class="container">
-        <h2 class="my-5 text-white">15 festive questions, one winner...</h2>
+        <h2 class="my-5 text-white">Remember, snow cheating allowed!...</h2>
   
         <form class="quiz-form text-light">
           <div class="my-5">
-            <p class="questions">1.Astronauts broadcast which Christmas song from space in 1965?</p>
+            <p class="questions"> 1.Astronauts broadcast which Christmas song from space in 1965?</p>
             <div class="form-check my-2 text-white-50">
-              <input type="radio" name="q1" value="A" checked>
+              <input type="radio" name="q1" value="X" checked>
+              <label class="form-check-label">Don't know</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q1" value="A">
               <label class="form-check-label">Silent night</label>
             </div>
             <div class="form-check my-2 text-white-50">
@@ -41,18 +45,23 @@
               <label class="form-check-label">Rockin' Around the Christmas Tree</label>
             </div>
             <div class="form-check my-2 text-white-50">
-              <input type="radio" name="q1" value="D">
+              <input type="radio" name="q1" value="C">
               <label class="form-check-label">White Christmas</label>
             </div>
             <div class="form-check my-2 text-white-50">
-              <input type="radio" name="q1" value="E">
-              <label class="form-check-label">Jingle Bells</label>
+              <input type="radio" name="q1" value="">
+              <label class="form-check-label" id='correct'>Jingle Bells</label>
             </div>
           </div>
+          <!-- new question -->
           <div class="my-5">
-            <p class="questions">2. Misteltoe literally translates from Anglo Saxon as what?</p>
+            <p class="questions"> 2. Misteltoe literally translates from Anglo Saxon as what?</p>
             <div class="form-check my-2 text-white-50">
-              <input type="radio" name="q2" value="A" checked>
+              <input type="radio" name="q2" value="X" checked>
+              <label class="form-check-label">Don't know</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q2" value="A">
               <label class="form-check-label">Missing Tooth</label>
             </div>
             <div class="form-check my-2 text-white-50">
@@ -68,10 +77,15 @@
               <label class="form-check-label">Throwing berries</label>
             </div>
           </div>
+          <!-- new question -->
           <div class="my-5">
-            <p class="questions">The German Nazi regime replaced Santa Claus with which figure?</p>
+            <p class="questions"> 3. The German Nazi regime replaced Santa Claus with which figure?</p>
             <div class="form-check my-2 text-white-50">
-              <input type="radio" name="q3" value="A" checked>
+              <input type="radio" name="q3" value="X" checked>
+              <label class="form-check-label">Don't know</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q3" value="A">
               <label class="form-check-label">Thor</label>
             </div>
             <div class="form-check my-2 text-white-50">
@@ -87,10 +101,15 @@
               <label class="form-check-label">Heraclitus</label>
             </div>
           </div>
+          <!-- new question -->
           <div class="my-5">
-            <p class="questions">The custom of putting up a Christmas tree originated from which country?</p>
+            <p class="questions"> 4. The custom of putting up a Christmas tree originated from which country?</p>
             <div class="form-check my-2 text-white-50">
-              <input type="radio" name="q4" value="A" checked>
+              <input type="radio" name="q4" value="X" checked>
+              <label class="form-check-label">Don't know</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q4" value="A">
               <label class="form-check-label">Denmark</label>
             </div>
             <div class="form-check my-2 text-white-50">
@@ -106,10 +125,15 @@
               <label class="form-check-label">Lebanon</label>
             </div>
           </div>
+          <!-- new question -->
           <div class="my-5">
-            <p class="questions">The official record for the tallest snowman is held by the US town of Bethel, Maine. How tall was it?</p>
+            <p class="questions"> 5. The official record for the tallest snowman is held by the US town of Bethel, Maine. How tall was it?</p>
             <div class="form-check my-2 text-white-50">
-              <input type="radio" name="q5" value="A" checked>
+              <input type="radio" name="q5" value="X" checked>
+              <label class="form-check-label">Don't know</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q5" value="A">
               <label class="form-check-label">36 meters</label>
             </div>
             <div class="form-check my-2 text-white-50">
@@ -125,6 +149,127 @@
               <label class="form-check-label">106 meters</label>
             </div>
           </div>
+          <!-- new question -->
+          <div class="my-5">
+            <p class="questions"> 6. What cartoon character is a Christmas Eve staple in Sweden and is watched by millions of Swedes every year?</p>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q6" value="X" checked>
+              <label class="form-check-label">Don't know</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q6" value="A">
+              <label class="form-check-label">Bugs Bunny</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q6" value="B">
+              <label class="form-check-label">Betty Boop</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q6" value="C">
+              <label class="form-check-label">Pop-eye</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q6" value="C">
+              <label class="form-check-label">Donald Duck</label>
+            </div>
+          </div>
+          <!-- new question -->
+          <div class="my-5">
+            <p class="questions"> 7. What were the names of the Ghosts in A Christmas Carol?</p>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q7" value="X" checked>
+              <label class="form-check-label">Don't know</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q7" value="A">
+              <label class="form-check-label">Ghosts of Christmas Past, Present, and Yet to Come</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q7" value="B">
+              <label class="form-check-label">Ghosts of Christmas Past, Present, and Future</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q7" value="C">
+              <label class="form-check-label">Ghosts of Christmas Past, Present, and Foretold</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q7" value="C">
+              <label class="form-check-label">Ghosts of Christmas Past, Present, and Destiny</label>
+            </div>
+          </div>
+          <!-- new question -->
+          <div class="my-5">
+            <p class="questions"> 8. A swede is a cross between which two vegetables?</p>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q8" value="X" checked>
+              <label class="form-check-label">Don't know</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q8" value="A">
+              <label class="form-check-label">A cabbage and a turnip</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q8" value="B">
+              <label class="form-check-label">A parsnip and a potatoe</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q8" value="C">
+              <label class="form-check-label">A turnip and a carrot</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q8" value="C">
+              <label class="form-check-label">A cabbage and a parsnip</label>
+            </div>
+          </div>
+          <!-- new question -->
+          <div class="my-5">
+            <p class="questions"> 9. What is the name of the skin that hangs from a turkey’s neck?</p>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q9" value="X" checked>
+              <label class="form-check-label">Don't know</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q9" value="A">
+              <label class="form-check-label">A dewlap</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q9" value="B">
+              <label class="form-check-label">A gulpkind </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q9" value="C">
+              <label class="form-check-label">A fleisch-noose</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q9" value="C">
+              <label class="form-check-label">A wattle</label>
+            </div>
+          </div>
+          <!-- new question -->
+          <div class="my-5">
+            <p class="questions"> 10. As the clock chimes midnight to ring in the New Year, a Spanish tradition involves eating twelve of what – one for each chime?</p>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q10" value="X" checked>
+              <label class="form-check-label">Don't know</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q10" value="A">
+              <label class="form-check-label">Raisins</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q10" value="B">
+              <label class="form-check-label">Grapes</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q10" value="C">
+              <label class="form-check-label">Black Olives</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q10" value="C">
+              <label class="form-check-label">Spiced Nuts</label>
+            </div>
+          </div>
+          <!-- new question -->
           <div class="text-center">
             <input type="submit" class="btn btn-light"> 
           </div>
