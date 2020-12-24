@@ -23,6 +23,7 @@ paras[9].innerHTML += "<br><span style='color: #32CD32; font-weight: bold;'> Ans
 background.style.backgroundColor = "#8b0000"
 if(output >50){
 heading.innerHTML = "Well done Santa would be pleased!"} else {heading.innerHTML = "Well that's not very christmassy"}
+document.getElementById("submitBtn").disabled = true;
 };
 
 
