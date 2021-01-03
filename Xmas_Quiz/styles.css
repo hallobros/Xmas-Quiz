@@ -1,0 +1,15 @@
+.mainBackground {
+    background-color: #164428;
+};
+
+.headline {
+    font-size: larger;
+};
+
+.questions{
+    color: aliceblue;
+};
+
+#correct{
+    color: blue
+};

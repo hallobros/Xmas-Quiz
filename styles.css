@@ -1,15 +1,18 @@
-.mainBackground {
-    background-color: #164428;
-};
+body{
+    background:darkslategrey;
+  }
+  .container{
+    max-width: 400px;
+  }
 
-.headline {
-    font-size: larger;
-};
+a {
+    color: #0060B6;
+    text-decoration: none;
+}
 
-.questions{
-    color: aliceblue;
-};
-
-#correct{
-    color: blue
-};
+a:hover 
+{
+     color:#00A0C6; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
